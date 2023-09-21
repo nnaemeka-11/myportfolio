@@ -1,0 +1,13 @@
+.NavBar{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+    color: white;
+    font-weight: 500;
+}
+li:hover{
+    border-bottom: 2px solid #d78a74;
+    padding-bottom: 2px;
+}
