@@ -12,8 +12,11 @@ function Home() {
         </section>
         <section className={styles.Content}>
             <h1 className={styles.Name}>Nnaemeka Joseph Elom</h1>
-            <h3 className={styles.Description}>Web Developer</h3>
-            <p className={styles.Details}>I am a web developer. I build for the web.</p>
+            <h3 className={styles.Description}>Am a Web Developer</h3>
+            
+            <p className={styles.Details}>I build all kinds of websites such 
+            as BTC website, school website, company website, crypto websites etc
+            .</p>
             <NavBar />
             <aside className={styles.IconsContainer}>
             <a href="https://www.linkedin.com/in/nnaemeka11"><span className={styles.IconContainer}>
