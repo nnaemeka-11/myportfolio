@@ -15,8 +15,7 @@ function Home() {
             <h3 className={styles.Description}>Am a Web Developer</h3>
             
             <p className={styles.Details}>I build all kinds of websites such 
-            as BTC website, school website, company website, crypto websites etc
-            .</p>
+            as BTC website, school website, company website, crypto websites etc.</p>
             <NavBar />
             <aside className={styles.IconsContainer}>
             <a href="https://www.linkedin.com/in/nnaemeka11"><span className={styles.IconContainer}>
