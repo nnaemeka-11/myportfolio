@@ -1,13 +1,8 @@
-import Home from './pages/Home/Home'
+import AppRouter from "./router/AppRouter";
+
 function App() {
 
-  return (
-    <>
-      <div>
-        <Home />
-      </div>
-    </>
-  )
+  return <AppRouter />;
 }
 
 export default App

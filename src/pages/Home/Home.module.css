@@ -87,3 +87,34 @@
     padding: 5px;
     clip-path: circle();
 }
+@media screen and (max-width: 700px) {
+    .Container{
+        flex-direction: column;
+        justify-content: none;
+    }
+    .ProfilePix{
+        width: 60%;
+        margin: auto;
+        height: 400px;
+    }
+    .Content{
+        width: 100%;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 460px){
+    .Container{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 375px){
+    .Name{
+        font-size: 20px;
+    }
+    .Description{
+        font-size: 16px;
+    }
+    .Details{
+        font-size: 14px;
+    }
+}
