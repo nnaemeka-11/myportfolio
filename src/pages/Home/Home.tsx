@@ -1,4 +1,4 @@
-import NavBar from '../../components/nav/NavBar'
+import { HomeNavBar } from '../../components/nav/NavBar'
 import styles from './Home.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faLinkedinIn, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
@@ -16,7 +16,7 @@ function Home() {
             
             <p className={styles.Details}>I build all kinds of websites such 
             as BTC website, school website, company website, crypto websites etc.</p>
-            <NavBar />
+            <HomeNavBar />
             <aside className={styles.IconsContainer}>
             <a href="https://www.linkedin.com/in/nnaemeka11"><span className={styles.IconContainer}>
             <FontAwesomeIcon icon={faLinkedinIn} className={styles.LinkedIn}/>

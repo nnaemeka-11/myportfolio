@@ -18,6 +18,7 @@
     background-position: center;
     border-radius: 16px;
     box-shadow: 0 0 24px #744936;
+    clip-path: circle();
 }
 .Name{
     color: aliceblue;
@@ -57,22 +58,23 @@
 }
 
 .LinkedIn{
-    color: white;
+    /* color: white; */
     background: linear-gradient(to bottom, #da8c76, #07568f);
     width: 10px;
     height: 10px;
     padding: 3px;
 }
 .Whatsapp{
-    color: white;
+    /* color: white; */
     background: linear-gradient(to bottom, #da8c76, #07568f);
+    background-color: #213547;
     width: 17px;
     height: 17px;
     padding: 4px;
     clip-path: circle();
 }
 .Facebook{
-    color: white;
+    /* color: white; */
     background: linear-gradient(to bottom, #da8c76, #07568f);
     width: 15px;
     height: 15px;
@@ -80,7 +82,7 @@
     clip-path: circle();
 }
 .Github{
-    color: white;
+    /* color: white; */
     background: linear-gradient(to bottom, #da8c76, #07568f);
     width: 15px;
     height: 15px;

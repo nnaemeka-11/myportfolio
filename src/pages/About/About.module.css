@@ -1,0 +1,113 @@
+.Container{
+    width: 100%;
+    background: linear-gradient(to bottom right, #07568f, #744936);
+    padding: 50px 100px 0;
+}
+.MainContainer{
+    background-color: #04090e;
+    margin-top: 32px;
+    padding: 50px;
+    color: white;
+}
+.MainContainer > aside:first-child{
+    width: 70%;
+    margin-bottom: 32px;
+}
+.MainContainer > aside:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.Decription{
+    margin-bottom: 16px;
+}
+.MainContainer > aside:first-child p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+.AboutSection img{
+    background: linear-gradient(to bottom, #da8c76, #07568f);
+    padding: 5px;
+    border-radius: 50%;
+}
+.Title:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -70px;
+    background: #db8d76;
+}
+.Title{
+    margin-left: 70px;
+    color: white;
+}
+.Title:after{
+    content:" ";
+    height: 2px;
+    width: 50px;
+    background: #db8d76;
+    display: block;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 70px;
+  }
+  .Stack{
+    color: #db8d76;
+  }
+  .Description2{
+    margin-top: 16px;
+    border-bottom: 2px solid #07568f;
+    color: white;
+  }
+  .RatingSection{
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    
+  }
+  .RatingSection p{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: white;
+  }
+  .WhiteStar{
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+  }
+  .SkillsSection{
+    margin-bottom: 32px;
+  }
+
+  .RefereesSectionTitle:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -70px;
+    background: #db8d76;
+}
+.RefereesSectionTitle{
+    margin-left: 70px;
+    color: white;
+}
+.RefereesSectionTitle:after{
+    content:" ";
+    height: 2px;
+    width: 50px;
+    background: #db8d76;
+    display: block;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 90px;
+  }
