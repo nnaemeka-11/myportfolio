@@ -1,0 +1,19 @@
+.CardContainer{
+    background: #06263d;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 250px;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+}
+.CardContainer img{
+    width: 100px;
+    clip-path: circle();
+}
+h1,h3,h4{
+    color: white;
+}

@@ -4,6 +4,8 @@ import location from '../../assets/location.svg'
 import email from '../../assets/email.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import phone from '../../assets/phone.svg'
+import Card from '../../components/card/Card'
+import { referees } from "../../components/utils/utils";
 
 function About() {
   return (
@@ -49,7 +51,13 @@ function About() {
             </aside>
             <aside className={styles.RefereesSection}>
                 <h1 className={styles.RefereesSectionTitle}>Referees</h1>
-                
+                <article className={styles.Card}>
+                    {
+                        referees.map((referee, i)=>{
+                            return <Card key={i} {...referee}/>
+                        })
+                    }                        
+                </article>
             </aside>
         </section>
     </div>
