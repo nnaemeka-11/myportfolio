@@ -58,14 +58,12 @@
 }
 
 .LinkedIn{
-    /* color: white; */
     background: linear-gradient(to bottom, #da8c76, #07568f);
     width: 10px;
     height: 10px;
     padding: 3px;
 }
 .Whatsapp{
-    /* color: white; */
     background: linear-gradient(to bottom, #da8c76, #07568f);
     background-color: #213547;
     width: 17px;
@@ -74,7 +72,6 @@
     clip-path: circle();
 }
 .Facebook{
-    /* color: white; */
     background: linear-gradient(to bottom, #da8c76, #07568f);
     width: 15px;
     height: 15px;
@@ -82,7 +79,6 @@
     clip-path: circle();
 }
 .Github{
-    /* color: white; */
     background: linear-gradient(to bottom, #da8c76, #07568f);
     width: 15px;
     height: 15px;
@@ -92,7 +88,7 @@
 @media screen and (max-width: 700px) {
     .Container{
         flex-direction: column;
-        justify-content: none;
+        justify-content: unset;
     }
     .ProfilePix{
         width: 60%;
@@ -102,14 +98,21 @@
     .Content{
         width: 100%;
         align-items: center;
+        margin-top: -40px;
     }
 }
 @media screen and (max-width: 460px){
     .Container{
         padding: 10px;
     }
+    .Content{
+        margin-top: -50px;
+    }
 }
 @media screen and (max-width: 375px){
+    .Content{
+        margin-top: -100px;
+    }
     .Name{
         font-size: 20px;
     }
@@ -119,5 +122,10 @@
     .Details{
         font-size: 14px;
         text-align: center;
+    }
+}
+@media screen and (max-width: 320px){
+    .Content{
+        margin-top: -130px;
     }
 }
