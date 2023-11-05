@@ -111,3 +111,32 @@
     margin-top: -12px;
     margin-left: 90px;
   }
+  @media screen and (max-width: 850px) {
+    .Container{
+      padding: 20px;
+  }
+  }
+  @media screen and (max-width: 700px) {
+    .MainContainer > aside:first-child{
+      width: 100%;
+  }
+ .Description2{
+    font-size: 16px;
+  }
+  }
+  @media screen and (max-width: 436px) {
+    .Stack{
+    font-size: 20px;
+  }
+  }
+  @media screen and (max-width: 400px) {
+    .MainContainer{
+      padding: 20px
+  }
+  }
+  
+  @media screen and (max-width: 330px) {
+    .Container, .MainContainer{
+      padding: 5px;
+  }
+}

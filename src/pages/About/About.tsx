@@ -4,8 +4,6 @@ import location from '../../assets/location.svg'
 import email from '../../assets/email.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import phone from '../../assets/phone.svg'
-// import rated from '../../assets/rated.svg'
-// import unrated from '../../assets/unrated.svg'
 
 function About() {
   return (

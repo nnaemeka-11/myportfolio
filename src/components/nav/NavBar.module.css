@@ -18,9 +18,22 @@ a{
 .NavContainer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .Name{
     color: aliceblue;
     font-size: 30px;
     font-weight: 700;
+}
+@media screen and (max-width: 700px) {
+    .NavContainer{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Name{
+        color: aliceblue;
+        font-size: 22px;
+        font-weight: 500;
+    }
 }
