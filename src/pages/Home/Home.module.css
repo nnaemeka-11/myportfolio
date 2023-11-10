@@ -89,6 +89,7 @@
     .Container{
         flex-direction: column;
         justify-content: center;
+        margin-top: -50px;
     }
     .ProfilePix{
         width: 100%;
@@ -109,7 +110,7 @@
         padding: 0 10px;
     }
     .Content{
-        margin-top: -100px;
+        margin-top: -70px;
     }
 }
 @media screen and (max-width: 375px){
