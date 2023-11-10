@@ -91,13 +91,14 @@
         justify-content: center;
     }
     .ProfilePix{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     .Content{
         width: 100%;
         height: 50%;
         align-items: center;
+        margin-top: -50px;
     }
     .Details{
         text-align: center;
