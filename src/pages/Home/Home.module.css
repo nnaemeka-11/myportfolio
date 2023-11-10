@@ -108,7 +108,9 @@
     .Container{
         padding: 0 10px;
     }
-   
+    .Content{
+        margin-top: -100px;
+    }
 }
 @media screen and (max-width: 375px){
     .Name{
