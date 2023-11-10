@@ -88,7 +88,7 @@
 @media screen and (max-width: 700px) {
     .Container{
         flex-direction: column;
-        justify-content: unset;
+        justify-content: center;
     }
     .ProfilePix{
         width: 60%;
@@ -107,6 +107,9 @@
     }
     .Content{
         margin-top: -50px;
+    }
+    .Details{
+        text-align: center;
     }
 }
 @media screen and (max-width: 375px){
