@@ -91,9 +91,8 @@
         justify-content: center;
     }
     .ProfilePix{
-        width: 100%;
+        width: 90%;
         margin: auto;
-        /* height: 400px; */
     }
     .Content{
         width: 100%;
