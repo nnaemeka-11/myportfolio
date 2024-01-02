@@ -2,10 +2,194 @@
     width: 100%;
     background: linear-gradient(to bottom right, #07568f, #744936);
     padding: 50px 100px 0;
+    min-height: 100vh;
 }
 .MainContainer{
     background-color: #04090e;
     margin-top: 32px;
-    padding: 50px;
+    padding: 10px;
     color: white;
+}
+.Title:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -70px;
+    background: #db8d76;
+}
+.Title{
+    margin-left: 70px;
+    color: white;
+}
+.Title:after{
+    content:" ";
+    height: 2px;
+    width: 50px;
+    background: #db8d76;
+    display: block;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 100px;
+  }
+
+  .Alert{
+    text-align: center;
+    margin: 50px 0;
+    color: aliceblue;
+  }
+  .ContactContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 100%;
+  }
+  .ContactContainer > article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+  .Icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #07568f, #744936);
+    border-radius: 75%;
+  }
+  .ContactContainer > article > span > p{
+    color: whitesmoke;
+  }
+  .IconsContainer{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    flex: 100%;
+}
+  .IconContainer{
+    width: 40px;
+    height: 40px;
+    border: 3px solid #07568f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.LinkedIn{
+    background: linear-gradient(to bottom, #da8c76, #07568f);
+    width: 10px;
+    height: 10px;
+    padding: 3px;
+}
+.Whatsapp{
+    background: linear-gradient(to bottom, #da8c76, #07568f);
+    background-color: #213547;
+    width: 17px;
+    height: 17px;
+    padding: 4px;
+    clip-path: circle();
+}
+.Facebook{
+    background: linear-gradient(to bottom, #da8c76, #07568f);
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    clip-path: circle();
+}
+.Github{
+    background: linear-gradient(to bottom, #da8c76, #07568f);
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    clip-path: circle();
+}
+.FormSection{
+    width: 100%;
+    padding: 20px;
+    background: rgba(6, 105, 173, 0.32);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.InputContainers{
+    display: flex;
+    gap: 10px;
+}
+.EachInput{
+    flex: 1;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.50);
+}
+label{
+    color: aliceblue;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+textarea{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.50);
+}
+button{
+    height: 40px;
+    border-radius: 8px;
+    background: #DB8D76;
+    box-shadow: 0px 2px 4px 0px #9A7D7D;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+@media screen and (max-width: 550px) {
+    .Container{
+        padding: 20px;
+    }
+    .Icon{
+        width: 20px;
+        height: 20px;
+    }
+    .InputContainers{
+        flex-direction: column;
+    }
+    .EachInput{
+        width: 100%;
+    }
+    .Alert{
+        font-size: 14px;
+    }
+    .ContactContainer > article > span > h4{
+        font-size: 14px;
+      }
+    .ContactContainer > article > span > p{
+        font-size: 12px;
+      }
+    .IconsContainer h3{
+        font-size: 14px;
+    }
+    .LinkedIn,
+    .Whatsapp,
+    .Facebook,
+    .Github{
+        width: 15px;
+    }
 }

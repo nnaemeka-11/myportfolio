@@ -34,18 +34,12 @@
     margin-top: -12px;
     margin-left: 100px;
   }
-  .Iframe{
-    margin: 20px 0;
-    width: 100%;
-    height: 300px;
-  }
   .Design{
     width: 378px;
 }
   .WorkSection{
     margin: 16px 0;
     display: flex;
-    /* gap: 10x; */
     justify-content: space-between;
     flex-wrap: wrap;
     flex: 100%;
