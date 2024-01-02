@@ -20,9 +20,9 @@ function Portfolio() {
         </section>
         <section className={styles.WorkSection}>
           <Design title={"Smartlearning"} source={smartlearning} text={'https://smartlearning.ng'} classname={styles.Design}/>
-          <Design title={"D'Angelo Arts"} source={dangelo} text={'https://nnaemekaxi.github.io'} classname={styles.Design}/>
-          <Design title={"Link Tree Portfolio"} source={linktree} text={'https://nnaemeka11.netlify.app'} classname={styles.Design}/>
           <Design title={"Card Payment Auth"} source={card} text={'https://junetechepayment.netlify.app/'} classname={styles.Design}/>
+          <Design title={"Link Tree Portfolio"} source={linktree} text={'https://nnaemeka11.netlify.app'} classname={styles.Design}/>
+          <Design title={"D'Angelo Arts"} source={dangelo} text={'https://nnaemekaxi.github.io'} classname={styles.Design}/>
         </section>
       </div>
     </div>
