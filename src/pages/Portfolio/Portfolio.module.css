@@ -45,7 +45,8 @@
   .WorkSection{
     margin: 16px 0;
     display: flex;
-    gap: 10px;
+    /* gap: 10x; */
+    justify-content: space-between;
     flex-wrap: wrap;
     flex: 100%;
   }
@@ -62,7 +63,7 @@
         width: 300px;
     }
 }
-@media screen and (max-width: 356px){
+@media screen and (max-width: 370px){
     .Container{
         padding: 10px;
     }
