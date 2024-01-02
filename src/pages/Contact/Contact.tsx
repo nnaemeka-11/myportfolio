@@ -1,7 +1,10 @@
+import { NavBar } from '../../components/nav/NavBar'
+import styles from './Contact.module.css'
+
 function Contact() {
     return (
-      <div>
-          <h1>SITE IN PROGRESS</h1>
+      <div className={styles.Container}>
+        <NavBar />
       </div>
     )
   }

@@ -1,0 +1,11 @@
+.Container{
+    width: 100%;
+    background: linear-gradient(to bottom right, #07568f, #744936);
+    padding: 50px 100px 0;
+}
+.MainContainer{
+    background-color: #04090e;
+    margin-top: 32px;
+    padding: 50px;
+    color: white;
+}

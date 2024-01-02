@@ -1,0 +1,73 @@
+.Container{
+    width: 100%;
+    background: linear-gradient(to bottom right, #07568f, #744936);
+    padding: 50px;
+    min-height: 100vh;
+}
+.MainContainer{
+    background-color: #04090e;
+    margin-top: 32px;
+    padding: 10px;
+    color: white;
+}
+.Title:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -70px;
+    background: #db8d76;
+}
+.Title{
+    margin-left: 70px;
+    color: white;
+}
+.Title:after{
+    content:" ";
+    height: 2px;
+    width: 50px;
+    background: #db8d76;
+    display: block;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 100px;
+  }
+  .Iframe{
+    margin: 20px 0;
+    width: 100%;
+    height: 300px;
+  }
+  .Design{
+    width: 378px;
+}
+  .WorkSection{
+    margin: 16px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex: 100%;
+  }
+
+@media screen and (max-width: 496px){
+    .Container{
+        padding: 20px;
+    }
+    .WorkSection{
+        flex-direction: column;
+        align-items: center;
+      }
+    .Design{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 356px){
+    .Container{
+        padding: 10px;
+    }
+
+    .Design{
+        width: 250px;
+    }
+}
