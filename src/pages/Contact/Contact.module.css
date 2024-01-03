@@ -37,12 +37,13 @@
 
   .Alert{
     text-align: center;
-    margin: 50px 0;
+    margin: 32px 0;
     color: aliceblue;
   }
   .ContactContainer{
     display: flex;
     justify-content: space-between;
+    gap: 10px;
     flex-wrap: wrap;
     flex: 100%;
   }
@@ -64,13 +65,18 @@
   .ContactContainer > article > span > p{
     color: whitesmoke;
   }
+  .FollowSection{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+  }
   .IconsContainer{
-    margin: 50px 0;
     display: flex;
     align-items: center;
     gap: 8px;
     flex-wrap: wrap;
-    flex: 100%;
 }
   .IconContainer{
     width: 40px;

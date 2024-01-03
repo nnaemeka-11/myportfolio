@@ -6,6 +6,11 @@ import { faFacebookF, faLinkedinIn, faGithub, faWhatsapp } from '@fortawesome/fr
 
 
 function Contact() {
+
+  const sendMessage = () => {
+
+  }
+
     return (
       <div className={styles.Container}>
         <NavBar />
@@ -38,8 +43,9 @@ function Contact() {
                 </span>
               </article>
           </aside>
+          <section className={styles.FollowSection}>
+          <h3 className={styles.FollowMe}>Follow me on social media </h3>
           <aside className={styles.IconsContainer}>
-            <h3>Follow me on social media </h3>
             <a href="https://www.linkedin.com/in/nnaemeka11"><span className={styles.IconContainer}>
             <FontAwesomeIcon icon={faLinkedinIn} className={styles.LinkedIn}/>
             </span></a>
@@ -53,6 +59,7 @@ function Contact() {
             <FontAwesomeIcon icon={faGithub} className={styles.Github}/>
             </span></a>
             </aside>
+            </section>
           <aside className={styles.FormSection}>
               <h3>Fill the form</h3>
               <span className={styles.InputContainers}>
@@ -69,7 +76,7 @@ function Contact() {
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message" placeholder='Enter your message'></textarea>
               </span>
-              <button>Send Message</button>
+              <button onClick={sendMessage}>Send Message</button>
           </aside>
         </section>
 
