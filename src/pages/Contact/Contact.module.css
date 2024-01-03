@@ -142,6 +142,7 @@ input{
     padding-left: 10px;
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0.50);
+    color: aliceblue;
 }
 label{
     color: aliceblue;
@@ -156,6 +157,7 @@ textarea{
     border: none;
     border-radius: 8px;
     background: rgba(0, 0, 0, 0.50);
+    color: aliceblue;
 }
 button{
     height: 40px;

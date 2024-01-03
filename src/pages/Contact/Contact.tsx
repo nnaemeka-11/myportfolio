@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import { NavBar } from '../../components/nav/NavBar'
 import styles from './Contact.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -7,9 +9,36 @@ import { faFacebookF, faLinkedinIn, faGithub, faWhatsapp } from '@fortawesome/fr
 
 function Contact() {
 
-  const sendMessage = () => {
+  const [user_name, setName] = useState<string>('');
+  const [user_email, setEmail] = useState<string>('');
+  const [message, setMessage] = useState<string>('');
 
-  }
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+  
+    try {
+      const form = e.currentTarget as HTMLFormElement;  // Cast e.currentTarget to HTMLFormElement
+  
+      const templateParams = {
+        from_name: user_name,
+        from_email: user_email,
+        message: message,
+      };
+  
+      await emailjs.sendForm(
+        'nnaemeka11',
+        'junetech',
+        form,
+        'b49wpKl2Qtc_fuJk5'
+      );
+  
+      alert('Message sent successfully!');
+    } catch (error) {
+      console.error('Error sending message:', error);
+      alert('Error sending message. Please try again later.');
+    }
+  };
+  
 
     return (
       <div className={styles.Container}>
@@ -60,24 +89,44 @@ function Contact() {
             </span></a>
             </aside>
             </section>
-          <aside className={styles.FormSection}>
+            <form onSubmit={handleSubmit} className={styles.FormSection}>
               <h3>Fill the form</h3>
               <span className={styles.InputContainers}>
                 <span className={styles.EachInput}>
                 <label htmlFor="name">Name</label>
-                <input type="text" name="name" id="name" placeholder='Enter your name' />
+                <input 
+                      type="text" 
+                      name="from_name" 
+                      id="name" 
+                      placeholder='Enter your name' 
+                      required
+                      value={user_name} onChange={(e) => setName(e.target.value)}
+                      />
                 </span>
                 <span className={styles.EachInput}>
                 <label htmlFor="email">Email</label>
-                <input type="text" name="email" id="email" placeholder='Enter your name'/>
+                <input 
+                      type="email" 
+                      name="from_email" 
+                      id="email" 
+                      placeholder='Enter your email'
+                      required
+                      value={user_email} onChange={(e) => setEmail(e.target.value)}
+                      />
                 </span>
               </span>
               <span style={{display: 'flex', flexDirection: 'column'}}>
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" placeholder='Enter your message'></textarea>
+              <textarea 
+                    name="message" 
+                    id="message" 
+                    placeholder='Enter your message' 
+                    required
+                    value={message} onChange={(e) => setMessage(e.target.value)}
+              />
               </span>
-              <button onClick={sendMessage}>Send Message</button>
-          </aside>
+              <button type="submit">Send Message</button>
+          </form>
         </section>
 
       </div>
