@@ -12,7 +12,7 @@ function Home() {
         </section>
         <section className={styles.Content}>
             <h1 className={styles.Name}>Nnaemeka Joseph Elom</h1>
-            <h3 className={styles.Description}>Am a Web Developer</h3>
+            <h3 className={styles.Description}>I'm a Web Developer</h3>
             
             <p className={styles.Details}>I build all kinds of websites such 
             as BTC website, school website, company website, crypto websites etc.</p>
