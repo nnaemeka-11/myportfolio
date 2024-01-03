@@ -31,7 +31,7 @@ function Contact() {
         form,
         'b49wpKl2Qtc_fuJk5'
       );
-  
+        console.log(templateParams); 
       alert('Message sent successfully!');
     } catch (error) {
       console.error('Error sending message:', error);
