@@ -14,7 +14,7 @@ const referees = [
         email:'info.chibuike@gmail.com'
     },
     {
-        image:'https://media.licdn.com/dms/image/D4E03AQGfXDbEw1zing/profile-displayphoto-shrink_400_400/0/1685729963096?e=1704931200&v=beta&t=hztiU8yQZ8bb77M4oMjYEwmSjRtnxBH9zQRaZJhAvOM',
+        image:'https://media.licdn.com/dms/image/D4E03AQGd2XBpY8f46A/profile-displayphoto-shrink_400_400/0/1704026652184?e=1709769600&v=beta&t=-8tC7D5eB4lXWzc1IBLEcsttbEGGZYTgDgm3fvvJEMQ',
         name:'Seyi Onifade', 
         position:'CEO, ZURI',
         phone:'+234 816 061 4229', 
