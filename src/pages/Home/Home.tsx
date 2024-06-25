@@ -27,7 +27,7 @@ function Home() {
             <a href="https://www.facebook.com/nnaemeka11"><span className={styles.IconContainer}>
             <FontAwesomeIcon icon={faFacebookF} className={styles.Facebook}/>
             </span></a>
-            <a href="https://www.github.com/nnaemekaxi"><span className={styles.IconContainer}>
+            <a href="https://www.github.com/nnaemeka-11"><span className={styles.IconContainer}>
             <FontAwesomeIcon icon={faGithub} className={styles.Github}/>
             </span></a>
             </aside>
