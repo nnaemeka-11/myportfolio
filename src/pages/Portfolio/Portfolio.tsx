@@ -21,7 +21,7 @@ function Portfolio() {
             <Design title={"Smartlearning"} source={smartlearning} text={'https://smartlearning.vercel.app/'} classname={styles.Design}/>
             <Design title={"Card Payment Auth"} source={card} text={'https://junetechepayment.netlify.app/'} classname={styles.Design}/>
             <Design title={"Link Tree Portfolio"} source={linktree} text={'https://nnaemeka11.netlify.app'} classname={styles.Design}/>
-            <Design title={"D'Angelo Arts"} source={dangelo} text={'https://nnaemekaxi.github.io'} classname={styles.Design}/>
+            <Design title={"D'Angelo Arts"} source={dangelo} text={'https://nnaemeka-11.github.io'} classname={styles.Design}/>
           </section>
         </section>
         
